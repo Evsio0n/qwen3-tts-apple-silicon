@@ -79,6 +79,28 @@ source .venv/bin/activate
 python main.py
 ```
 
+
+### 4. Use and serve with OpenAI capabilities
+
+```bash 
+source .venv/bin/activate
+python run.py
+```
+
+- Default settings:
+```
+❯ python run.py --help
+usage: run.py [-h] [--host HOST] [--port PORT] [--reload] [--model MODEL]
+
+Qwen3-TTS OpenAI-compatible server
+
+options:
+  -h, --help     show this help message and exit
+  --host HOST    Bind host (default: 127.0.0.1)
+  --port PORT    Bind port (default: 8000)
+  --reload       Enable auto-reload (dev mode)
+  --model MODEL  Model to pre-load at startup (default: tts-1)
+```
 ---
 
 ## Usage
